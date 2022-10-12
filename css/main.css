@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('../fonts/Fraunces9pt-Bold.woff2') format('woff2'),
+        url('../fonts/Fraunces9pt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+        url('../fonts/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    box-sizing: border-box;
+}
+ ul , ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+ }
+ a{
+    text-decoration: none;
+ }
+ body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Barlow', sans-serif;
+   font-family: 'Fraunces', serif;
+ }
+ .container{
+   width: 1280px; 
+   margin: 0 auto;
+   padding: 0 15px;
+ }
+
+ /*header*/
+ .header-wrapper{
+    display: flex;
+    align-items: center;
+ }
+ .header-box{
+    width: 410px;
+    margin-left: auto;
+ }
+ .nav-list{
+    display: flex;
+ }
+ .nav-list-item{
+    padding: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+
+ }
+ .nav-list-item:nth-child(1){
+    padding-left: 0;
+ }
+
+ /*intro section*/
+ .intro{
+    margin-top: 20px;
+ }
+ .intro-wrapper{
+    background-image: url("../images/Bitmap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .intro-box{
+    padding: 50px ;
+    color: #fff;
+ }
+ .intro-box-title{
+    margin: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7; 
+ }
+ .intro-box-desc{
+    width: 445px ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8; 
+    margin:36px 0 56px;
+ }
+ .intro-box-link{
+    background: #66D2CF;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    padding: 15px 31px;
+ }
+
+ /*our collection*/
+ .our-collection{
+    margin-top: 100px;
+ }
+ .collection-wrapper{
+    background-image: url("../images/collectiom-main.svg");
+    background-repeat: no-repeat;
+    background-position: top 0 center;
+ }
+ .collection-list{
+    display: flex;
+    align-items: center;
+    padding-top: 126px ;
+ }
+ .collection-list-item{
+  margin: 0 15px 0 30px;
+ }
+ .collection-item-title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B; 
+ }
+ .collection-text{
+    width:255px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center; 
+    color: #333D4B; 
+ }
+ 
+ /*about-us*/
+ .about-us{
+    margin-top: 188px;
+ }
+ .about-us-wrapper{
+    background-color: #293039;
+    width: 1280px;
+    height: 600px;
+    position: relative;
+ }
+ .about-us-title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    padding-top: 110px;
+ }
+ .about-us-desc{
+    padding: 32px 370px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+ }
+ .about-us-list{
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    bottom:0 ;
+    display: flex;
+    align-items: center;
+ }
+ .about-list-item{
+    width: 350px;
+    height: 350px;
+    padding: 72px 48px 48px 47px;
+    margin: 15px;
+    text-align: center;
+    background: #0E8784;
+    border-radius: 8px 
+ }
+ .about-item-title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+ }
+ .about-item-desc{
+    width: 255px;
+    font-style: normal;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+ }
